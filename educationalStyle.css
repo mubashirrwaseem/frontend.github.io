@@ -1,0 +1,248 @@
+*{
+    margin: 0%;
+    font-family: 'Times New Roman', Times, serif;
+    box-sizing: border-box;
+}
+header{
+    background-image: url(img/headerPic.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 75vh;
+}
+.mid{
+    width: 40%;
+    height: 25vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-left: 150px;
+    margin-top: 90px;
+}
+.mid>p{
+    width: 85%;
+}
+.btn1{
+    width: 120px;
+    padding: 8px;
+    background-color: #51BD78;
+    border-radius: 30px;
+    border-color: #51BD78;
+    color: white;
+    box-shadow: 0px 0px 9px 0px rgba(0, 0, 0, 0.24);
+}
+.btn1:hover{
+    background-color: white;
+    border: 2px solid #51BD78;
+    color: #51BD78;
+    
+}
+.sec1{
+    width: 100%;
+    height: 60vh;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.features{
+    width: 70%;
+    height: 40vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+.upper{
+    text-align: center;
+    width: 70%;
+}
+.upper>p{
+    padding-top: 10px;
+}
+.cards{
+    width: 90%;
+    display: flex;
+    padding-top: 20px;
+    justify-content: space-between;
+}
+.card{
+    width: 190px;
+    height: 200px;
+    padding: 10px;
+    color: white;
+    border-radius: 5px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #51BD78;
+}
+.card>p{
+    padding-top: 5px;
+}
+.sec2{
+    width: 100%;
+    height: 190vh;
+    background-color: #FBFBFB;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding-top: 50px;
+}
+.Cources{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.Cources>h3{
+    font-size: 2rem;
+    border-bottom: 1px solid #000000;
+}
+.Cources>p{
+    width: 80%;
+    box-sizing: border-box;
+    padding: 30px;
+    margin-bottom: 20px;
+}
+.cardSec{
+    width: 63.5%;
+    height: 73vh;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+.courcesCard{
+    width: 31%;
+    height: 70vh;
+    background-color: white;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+    box-shadow: 0px 0px 9px 0px rgba(0, 0, 0, 0.24);
+}
+.imageSec{
+    width: 100%;
+    height: 37vh;
+    text-align: left;
+    background-color: #51BD78;
+}
+.imageSec>h3{
+    padding-top: 5px;
+    padding-left: 10px;
+    color: white;
+}
+.details{
+    width: 100%;
+    height: 35vh;
+    display: flex; 
+    padding-left: 10px;
+    padding-right: 10px;
+    font-size: 14px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.icons>i{
+    color: #F89D17;
+}
+.imgs{
+    width: 100%;
+}
+.sec3{
+    background-color: white;
+    width: 100%;
+    height: 45vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.section3{
+    width: 63%;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.leftCard{
+    background-color: white;
+    width: 48%;
+    height: 25vh;
+    display: flex;
+    justify-content: space-evenly;
+    box-shadow: 0px 0px 7px 0px #999;
+}
+.leftCard>img{
+    width: 160px;
+    height: 158px;
+}
+.latestCard{
+    display: flex;
+    justify-content: space-between;
+}
+.latest{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.latest>p{
+    padding-top: 10px;
+    padding-bottom: 30px;
+    width: 70%;
+}
+.FinancialPlan{
+    text-align: left;
+    display: flex;
+    padding-left: 10px;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+.FinancialPlan>a{
+    text-decoration: none;
+}
+.sec4{
+    width: 100%;
+    height: 90vh;
+    background-color: #FBFBFB;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.section4{
+    width: 63%;
+    height: 50vh;
+}
+.facultiesCard{
+    display: flex;
+    justify-content: space-between;
+}
+.faculties{
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-bottom: 50px;
+    text-align: center;
+}
+.teacher>img{
+    width: 200px;
+    height: 220px;
+}
+.teacher{
+    height: 300px;
+    background-color: #51BD78;
+}
+.david{
+    padding: 20px;
+    color: white;
+}
+.david>h6{
+    font-style: italic;
+}
